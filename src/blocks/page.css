@@ -1,0 +1,13 @@
+.page {
+    background-color: #935d8c;
+    color: rgba(255, 255, 255, 0.65);
+    background-color: #935d8c;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    background-image: url("../images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url(../images/overlay.png), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url("../images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url(../images/overlay.png), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
